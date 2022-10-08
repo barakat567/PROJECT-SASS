@@ -1,0 +1,150 @@
+body {
+  height: 2500px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+  background-color: #19283f;
+}
+.navbar .nav-link {
+  padding: 20px;
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link .active {
+  color: aqua;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: aqua;
+}
+.navbar .navbar-nav .nav-link.foucs {
+  color: aqua;
+}
+
+.landing {
+  background-color: #19283f;
+  min-height: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-btn {
+  background-color: red;
+  color: yellow;
+}
+
+.features .icon-holder {
+  height: 200px;
+}
+
+.features .icon-holder svg {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.features .icon-holder .number {
+  font-size: 12rem;
+  color: #eff7fa;
+}
+
+.features .icon-holder .icon {
+  color: aqua;
+}
+
+.our-work {
+  background-color: #eff7fa;
+}
+.our-work ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.our-work ul li.active {
+  background-color: red;
+  color: yellow;
+}
+.our-work .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.stuff .description {
+  max-width: 500px;
+}
+
+.team {
+  background-color: #eff7fa;
+}
+.team h2 {
+  color: yellow;
+}
+.team .box h4 {
+  background-color: aqua;
+  padding: 5px;
+}
+
+.project {
+  background-color: #19283f;
+}
+
+.subscribe {
+  background-color: yellow;
+}
+.subscribe input[type=text] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type=submit] {
+  background-color: #19283f;
+  color: yellow;
+}
+.subscribe ::-webkit-input-placeholder {
+  color: gray;
+}
+.subscribe ::-moz-placeholder {
+  color: gray;
+}
+.subscribe :-ms-input-placeholder {
+  color: gray;
+}
+.subscribe ::-ms-input-placeholder {
+  color: gray;
+}
+.subscribe ::placeholder {
+  color: gray;
+}
+
+.footer {
+  background-color: #19283f;
+}
+.footer .copyright > span {
+  color: black;
+}
+.footer .copyright div span {
+  color: yellow;
+}
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+.footer .facebook {
+  background-color: #1877f2;
+}
+.footer .twitter {
+  background-color: #1da1f2;
+}
+.footer .linkedin {
+  background-color: #0077b5;
+}
+.footer .youtube {
+  background-color: #ff0000;
+}
+/*# sourceMappingURL=main.css.map */
